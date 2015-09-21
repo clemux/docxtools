@@ -1,2 +1,22 @@
 Tools for dealing with annoying docx files. Written for my personal
 use, do not trust it.
+
+extract_pdfs
+============
+
+Quick&dirty script for extracting embedded PDF files from a DOCX
+document. Will probably not work with your own files, but you can ping
+me (clement@mux.me) or create an issue in the bug tracker.
+
+usage
+-----
+
+./extract_pdfs.py <path to file.docx>
+
+Will extracts all embedded PDFs in current directory.
+
+TODO
+----
+
+ - Use pdfminer or some other library to automatically name the PDF files.
+ - some error handling
